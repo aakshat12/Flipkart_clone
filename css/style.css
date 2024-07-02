@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 14px 25px;
+}
+.logo img{
+    width: 96px;
+    padding: 0 25px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    margin: 16px 10px;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 78px;
+    font-weight: 200;
+}
+.top1 img{
+    width: 160px;
+    padding: 10px 15px;
+}
+.lines{
+    padding: 10px 15px;
+    display: block;
+    width: 160px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    background-color: #2874f0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+}

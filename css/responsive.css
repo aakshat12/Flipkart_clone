@@ -1,0 +1,43 @@
+@media screen and (max-width:800px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search input{
+        width: 86vw;
+        height: 27px;
+        margin: 16px 10px;
+        padding: 0px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul li{
+        margin: 14px 30px;
+    }
+    .numbertext img{
+        height: 173px;
+    }
+}
+@media screen and (max-width:428px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search{
+        padding: 10px 34px;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul li{
+        margin: 14px 15px;
+    }
+    .numbertext img{
+        height: 173px;
+    }
+}
